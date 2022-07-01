@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Settings page</title>
+        <link rel="stylesheet" href="setting.css">
+    </head>
+    <body>
+        <h1>Settings</h1>
+        <fieldset>
+            <form action="index.html" method="get">
+        <div class='container'>
+                <div>
+                    <label for="color">Color: </label>
+                    <input type="color" id="color" name="color" value="#FFFCFF"><br>
+                </div>
+
+                <br>
+
+                <div id='functions'>
+                    <input id='submit' type="submit" value='Submit' onclick='color_submitted()'/>
+                </div>
+
+                <hr>
+
+                <div>
+                    <label for="font">Font: </label>
+                    <select id='font' name='font' value='Arial' onclick="fontchange()">
+                        <option>Arial</option>
+                        <option>Courier New</option>
+                        <option>Times New Roman</option>
+                        <option>Sans serif</option>
+                        <option>Verdana</option>
+                        <option>Franklin Gothic Medium</option>
+                        <option>Gill Sans</option>
+                        <option>Segoe UI</option>
+                        <option>Lucida Sans</option>
+                        <option>Trebuchet MS</option>
+                        <option>Georgia</option>
+                        <option>Arial Narrow Bold</option>
+                    </select><br>
+                </div>
+
+                <br>
+                
+                <div id='preview'>Preview: <div id="font-preview">Hello World</div></div><br>
+
+                <div id='functions'>
+                    <input id='submit' type="submit" value='Submit' onclick='font_submitted()'/>
+                </div>
+                <br>
+                <button id='close' type="button"><a href="index.html">Close Page</a></button>
+        </div>
+    </form>
+    </fieldset>
+    </body>
+    <script src="settings.js"></script>
+    <script src='submits.js'></script>
+</html>

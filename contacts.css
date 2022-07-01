@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    display:block;
+    font-size: 26px;
+    margin-top: 15%;
+}
+
+div{
+    padding:30px;
+    color:#92a1d1;
+    display: inline-block;
+
+}
+
+fieldset{
+    border-radius: 20px
+}
+
+#submit{
+    background-color: #92a1d1;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    border: none;
+    font-size: 30px;
+    float: right;
+}
+
+input{
+    width:auto;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
